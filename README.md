@@ -628,7 +628,7 @@ plt.imshow(test_img_bboxed)
 ### Test Vehicle Detection Pipeline in Problematic Areas
 Now let's test to see how our vehicle tracking pipeline performs in a number of problem areas in the project video. I used this step to fine tune my parameters before running it on the project video. 
 
-The first image is shows the first pass heatmap, the second image shows the final heatmap, and the third image shows our finalized bounding box.
+The first image is the first pass heatmap, the second image is the final heatmap, and the third image is our finalized bounding box.
 
 
 ```python
