@@ -655,7 +655,7 @@ for i,image_path in enumerate(selims_test_images):
 # Model Performance
 Our model peformed considerably well. On a few occasions, the model picks up vehicles from the opposing lane of traffic and there's also some areas of the video where the bounding boxes aren't properly displayed. These issues are most likely related to the lack of image scaling at various other sizes, since the classifier is looking for images within the 1.0, 1.5, 2.0 image factor sizes.
 
-<a href='https://www.youtube.com/watch?v=hZVEDuJlEGk'>![Project Video Output](/media/project_video_out_gif.gif)</a>
+<a href='https://youtu.be/ireg75njkQY'>![Project Video Output](/media/project_video_out_gif.gif)</a>
 
 # Future Work
 Some room for potential improvement:
